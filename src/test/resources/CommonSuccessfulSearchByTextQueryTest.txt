@@ -1,0 +1,22 @@
+0) Test DATA
+- {
+    {   'Allure testops', 'https://qameta.io'}
+    {   'Selenide', 'https://ru.selenide.org'}
+
+    }
+
+1) Заголовок
+Адрес https://ru.selenide.org должен быть в выдаче гугла по запросу 'selenide'
+
+2) Критичность
+Blocker
+
+3) (optional) Предусловия
+Открыт браузер с главной страницей google.com
+
+4) Шаги
+- Ввести 'Selenide' в поисковую строку.
+- Нажать кнопку "Search".
+
+5) Ожидаемый результат
+- Адрес https://ru.selenide.org должен быть в выдаче гугла по запросу 'selenide'
